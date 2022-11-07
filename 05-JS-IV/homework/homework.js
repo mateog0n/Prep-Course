@@ -24,7 +24,7 @@ function multiplicarNumeroDesconocidoPorCinco (objetoMisterioso) {
 }
 
 function eliminarPropiedad (objeto, unaPropiedad) {
-  delete objeto[propiedad];
+  delete objeto[unaPropiedad];
 
   return objeto;
 }
