@@ -18,10 +18,9 @@ function sumarArray(numeros, cb) {
 }
 
 function forEach(array, cb) {
-  var sumaTotal = numeros.reduce(function(acc, curr) {
-    return acc + curr;
-  },0);
-  cb(sumaTotal)
+  for(var i = 0; i < array.length; i++) {
+    cb(array[i]);
+  }
 }
 
 function map(array, cb) {
