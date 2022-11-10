@@ -7,32 +7,14 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+ display: text-align; 
 }
 
 
-/* Ejercicio 2: Posicionar el header */
+#ejercicioDos {
+    display: hidden;
+}
 
-/* Acá va tu código */
-
-
-
-/* Ejercicio 3: */
-
-/* Acá va tu código */
-
-
-
-/* Ejercicio 4: */
-
-/* Acá va tu código */
-
-
-
-/* Ejercicio 5: */
-
-/* Acá va tu código */
-
-
-
-/* Ejercicio 6. */
+#ejercicioTres {
+    
+}
